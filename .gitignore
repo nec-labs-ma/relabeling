@@ -1,0 +1,6 @@
+dinov2_data/
+*.json
+*.txt
+*.pkl
+*.pth
+tests/
