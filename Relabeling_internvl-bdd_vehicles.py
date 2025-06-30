@@ -313,7 +313,7 @@ def main():
                             correct_vlm1+=1
                         if gt == response12:
                             correct_vlm2+=1
-                        if gt == response12:
+                        if gt == response13:
                             correct_vlm3+=1
                         print(gt, response11, response12, response13)
                         if image_path in results:
