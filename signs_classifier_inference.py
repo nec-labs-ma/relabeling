@@ -80,7 +80,7 @@ def main():
         ground_shape = data['categories'][poly_file['category_id']-1]['name']
         if ground_truth=='Others' and ground_shape == 'Sign':
             continue
-        image_path = '/net/acadia10a/data/sparsh/mapillary/mapillary-2.0/validation/images/%s'%filename
+        image_path = '/net/acadia10a/data/user/mapillary/mapillary-2.0/validation/images/%s'%filename
         image = cv2.imread(image_path)
         #cv2.polylines(image, [poly], isClosed=True, color=(0, 255, 0), thickness=5)
         x, y, w, h = poly_file['bbox']
