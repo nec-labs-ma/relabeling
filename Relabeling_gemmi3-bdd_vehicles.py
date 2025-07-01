@@ -16,7 +16,7 @@ from glob import glob
 from accelerate import infer_auto_device_map
 import argparse
 import sys
-cats = json.load(open('/net/acadia10a/data/sparsh/mapillary/mapillary-2.0/config_v2.0.json', 'r'))
+cats = json.load(open('/net/acadia10a/data/user/mapillary/mapillary-2.0/config_v2.0.json', 'r'))
 cats = {i['readable']: i['color'] for i in cats['labels']}
 
 
@@ -263,13 +263,13 @@ def main():
     results = {}
 
 
-    cats = json.load(open('/net/acadia7a/data/samuel/bdd100k/det_val.json', 'r'))
+    cats = json.load(open('/net/acadia7a/data/user/bdd100k/det_val.json', 'r'))
 
 
     valid_cats = ['car', 'motorcycle', 'bus', 'truck', 'bicycle']
     for i in cats:
         cat_image = i['labels']
-        image_path = '/net/acadia7a/data/samuel/bdd100k/images/100k/val/%s'%i['name']
+        image_path = '/net/acadia7a/data/user/bdd100k/images/100k/val/%s'%i['name']
         try:
             image = cv2.imread(image_path)
             for j in cat_image:
