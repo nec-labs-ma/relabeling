@@ -68,11 +68,6 @@ pip install awscli==1.25.0
 - Download images here: `https://mapillary-signs.s3.us-west-2.amazonaws.com/images.zip` or `aws s3 cp s3://mapillary-signs/images.zip .`
 - Download annotations for signs: `https://mapillary-signs.s3.us-west-2.amazonaws.com/instances_default.json` or `aws s3 cp s3://mapillary-signs/instances_default.json .`
 
-### 4. Explore the dataset
-- View the dataset here at huggingface:
-``` sparshgarg57/mapillary_traffic_signs ```
-- Make changes in the json file above, change the absolute path of images as per your needs
-
 ---
 
 # VLM-Based Dataset Relabeling
@@ -291,8 +286,3 @@ This dataset is released for **research and academic use only**. Please check `L
 - Gemma by Google DeepMind
 
 ---
-
-## 📫 Contact
-
-For questions or collaborations, please contact:  
-**sparsh@nec-labs.com**
