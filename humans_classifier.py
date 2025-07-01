@@ -22,17 +22,17 @@ class_to_idx_path = "human_class_to_idx.pkl"
 # Define class_files manually or load from config
 class_files = {
     "person": [
-        '/net/acadia14a/data/sparsh/Relabeling/dinov2_data/humans/CyclistDetectorTrainingDatav3coco/train/cropped_images/person/facebook_dinov2-giant_person.pt',
-        '/net/acadia14a/data/sparsh/Relabeling/dinov2_data/humans/Person_v9-6040_coco/train/cropped_images/Person/facebook_dinov2-giant_Person.pt',
-        '/net/acadia14a/data/sparsh/Relabeling/dinov2_data/humans/Person_v9-6040_coco/train/cropped_images/person/facebook_dinov2-giant_person.pt'
+        '/net/acadia14a/data/user/Relabeling/dinov2_data/humans/CyclistDetectorTrainingDatav3coco/train/cropped_images/person/facebook_dinov2-giant_person.pt',
+        '/net/acadia14a/data/user/Relabeling/dinov2_data/humans/Person_v9-6040_coco/train/cropped_images/Person/facebook_dinov2-giant_Person.pt',
+        '/net/acadia14a/data/user/Relabeling/dinov2_data/humans/Person_v9-6040_coco/train/cropped_images/person/facebook_dinov2-giant_person.pt'
     ],
     "bicyclist": [
-        '/net/acadia14a/data/sparsh/Relabeling/dinov2_data/humans/CyclistDetectorTrainingDatav3coco/train/cropped_images/bicyclist/facebook_dinov2-giant_bicyclist.pt',
-        '/net/acadia14a/data/sparsh/Relabeling/dinov2_data/humans/bike_detect/train/cropped_images/cyclist/facebook_dinov2-giant_cyclist.pt'
+        '/net/acadia14a/data/user/Relabeling/dinov2_data/humans/CyclistDetectorTrainingDatav3coco/train/cropped_images/bicyclist/facebook_dinov2-giant_bicyclist.pt',
+        '/net/acadia14a/data/user/Relabeling/dinov2_data/humans/bike_detect/train/cropped_images/cyclist/facebook_dinov2-giant_cyclist.pt'
     ],
     "motorcyclist": [
-        '/net/acadia14a/data/sparsh/Relabeling/dinov2_data/humans/CyclistDetectorTrainingDatav3coco/train/cropped_images/motorcyclist/facebook_dinov2-giant_motorcyclist.pt',
-        '/net/acadia14a/data/sparsh/Relabeling/dinov2_data/humans/motorbike/train/cropped_images/motorcyclist/facebook_dinov2-giant_motorcyclist.pt'
+        '/net/acadia14a/data/user/Relabeling/dinov2_data/humans/CyclistDetectorTrainingDatav3coco/train/cropped_images/motorcyclist/facebook_dinov2-giant_motorcyclist.pt',
+        '/net/acadia14a/data/user/Relabeling/dinov2_data/humans/motorbike/train/cropped_images/motorcyclist/facebook_dinov2-giant_motorcyclist.pt'
     ]
 }
 

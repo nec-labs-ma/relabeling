@@ -13,7 +13,7 @@ import json
 import os
 from glob import glob
 import argparse
-cats = json.load(open('/net/acadia10a/data/sparsh/mapillary/mapillary-2.0/config_v2.0.json', 'r'))
+cats = json.load(open('/net/acadia10a/data/user/mapillary/mapillary-2.0/config_v2.0.json', 'r'))
 cats = {i['readable']: i['color'] for i in cats['labels']}
 import sys
 import re

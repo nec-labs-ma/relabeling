@@ -74,9 +74,9 @@ def save_cropped_images(annotations_path, images_dir, output_dir, target_labels)
 
     print("Cropping and saving completed!")
 
-annotations_path = '/net/acadia12a/data/samuel/objects365v1/zsy_objv1_train_xdino.json'
-images_dir = '/net/acadia12a/data/samuel/objects365v1/train'
-output_dir = '/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles'
+annotations_path = '/net/acadia12a/data/user/objects365v1/zsy_objv1_train_xdino.json'
+images_dir = '/net/acadia12a/data/user/objects365v1/train'
+output_dir = '/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles'
 target_labels = [
     'car', 'suv', 'van', 'bus', 'motorcycle', 'bicycle', 'pickup truck', 'truck',
     'machinery vehicle', 'sports car', 'fire truck', 'heavy truck', 'ambulance',

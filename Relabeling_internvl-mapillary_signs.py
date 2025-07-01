@@ -12,7 +12,7 @@
 import json
 import os
 from glob import glob
-cats = json.load(open('/net/acadia10a/data/sparsh/mapillary/mapillary-2.0/config_v2.0.json', 'r'))
+cats = json.load(open('/net/acadia10a/data/user/mapillary/mapillary-2.0/config_v2.0.json', 'r'))
 cats = {i['readable']: i['color'] for i in cats['labels']}
 import math
 import sys
@@ -264,7 +264,7 @@ def main():
         ground_shape = data['categories'][poly_file['category_id']-1]['name']
         if ground_truth=='Others' and ground_shape == 'Sign':
             continue
-        image_path = '/net/acadia10a/data/sparsh/mapillary/mapillary-2.0/validation/images/%s'%filename
+        image_path = '/net/acadia10a/data/user/mapillary/mapillary-2.0/validation/images/%s'%filename
         print(ground_truth, ground_shape)
         #for key, polygon_points in all_polygon_points.items():
         image = cv2.imread(image_path)

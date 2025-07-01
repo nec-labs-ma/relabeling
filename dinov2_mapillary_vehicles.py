@@ -17,35 +17,35 @@ IMAGENET_STD = (0.229, 0.224, 0.225)
 
 # class_files = {
 #     # -- class 1
-#     "car": ["/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/car/facebook_dinov2-giant_car.pt", "/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/sports car/facebook_dinov2-giant_sports_car.pt"],
-#     "bus": ["/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/bus/facebook_dinov2-giant_bus.pt"],
-#     "train":['/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/train/facebook_dinov2-giant_train.pt'],
-#     'truck': ['/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/truck/facebook_dinov2-giant_truck.pt'],
-#     "motorcycle":['/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/motorcycle/facebook_dinov2-giant_motorcycle.pt'],
-#     'bicycle': ['/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/bicycle/facebook_dinov2-giant_bicycle.pt'],
-#     "boat": ['/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/boat/facebook_dinov2-giant_boat.pt', '/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/sailboat/facebook_dinov2-giant_sailboat.pt'],
-#     "trailer": ['/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/heavy truck/facebook_dinov2-giant_heavy_truck.pt'],
-#     "van":["/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/van/facebook_dinov2-giant_van.pt"],
-#     "suv":["/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/suv/facebook_dinov2-giant_suv.pt"],
+#     "car": ["/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/car/facebook_dinov2-giant_car.pt", "/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/sports car/facebook_dinov2-giant_sports_car.pt"],
+#     "bus": ["/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/bus/facebook_dinov2-giant_bus.pt"],
+#     "train":['/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/train/facebook_dinov2-giant_train.pt'],
+#     'truck': ['/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/truck/facebook_dinov2-giant_truck.pt'],
+#     "motorcycle":['/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/motorcycle/facebook_dinov2-giant_motorcycle.pt'],
+#     'bicycle': ['/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/bicycle/facebook_dinov2-giant_bicycle.pt'],
+#     "boat": ['/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/boat/facebook_dinov2-giant_boat.pt', '/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/sailboat/facebook_dinov2-giant_sailboat.pt'],
+#     "trailer": ['/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/heavy truck/facebook_dinov2-giant_heavy_truck.pt'],
+#     "van":["/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/van/facebook_dinov2-giant_van.pt"],
+#     "suv":["/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/suv/facebook_dinov2-giant_suv.pt"],
 # }
 
 class_files = {
     # -- class 1
-    "car": ["/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/car/facebook_dinov2-giant_car.pt"],
-    "bus": ["/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/bus/facebook_dinov2-giant_bus.pt"],
-    "train":['/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/train/facebook_dinov2-giant_train.pt'],
-    'truck': ['/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/truck/facebook_dinov2-giant_truck.pt'],
-    "motorcycle":['/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/motorcycle/facebook_dinov2-giant_motorcycle.pt'],
-    'bicycle': ['/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/bicycle/facebook_dinov2-giant_bicycle.pt'],
-    "boat": ['/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/boat/facebook_dinov2-giant_boat.pt', '/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/sailboat/facebook_dinov2-giant_sailboat.pt'],
-    "van":["/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/van/facebook_dinov2-giant_van.pt"],
-    "suv":["/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/suv/facebook_dinov2-giant_suv.pt"],
+    "car": ["/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/car/facebook_dinov2-giant_car.pt"],
+    "bus": ["/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/bus/facebook_dinov2-giant_bus.pt"],
+    "train":['/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/train/facebook_dinov2-giant_train.pt'],
+    'truck': ['/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/truck/facebook_dinov2-giant_truck.pt'],
+    "motorcycle":['/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/motorcycle/facebook_dinov2-giant_motorcycle.pt'],
+    'bicycle': ['/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/bicycle/facebook_dinov2-giant_bicycle.pt'],
+    "boat": ['/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/boat/facebook_dinov2-giant_boat.pt', '/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/sailboat/facebook_dinov2-giant_sailboat.pt'],
+    "van":["/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/van/facebook_dinov2-giant_van.pt"],
+    "suv":["/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/suv/facebook_dinov2-giant_suv.pt"],
 }
 
 # class_files = {
-#     "person": ['/net/acadia14a/data/sparsh/Relabeling/dinov2_data/CyclistDetectorTrainingDatav3coco/train/cropped_images/person/facebook_dinov2-giant_person.pt'],
-#     "bicyclist": ['/net/acadia14a/data/sparsh/Relabeling/dinov2_data/CyclistDetectorTrainingDatav3coco/train/cropped_images/bicyclist/facebook_dinov2-giant_bicyclist.pt'],
-#     "motorcyclist": ['/net/acadia14a/data/sparsh/Relabeling/dinov2_data/CyclistDetectorTrainingDatav3coco/train/cropped_images/motorcyclist/facebook_dinov2-giant_motorcyclist.pt']
+#     "person": ['/net/acadia14a/data/user/Relabeling/dinov2_data/CyclistDetectorTrainingDatav3coco/train/cropped_images/person/facebook_dinov2-giant_person.pt'],
+#     "bicyclist": ['/net/acadia14a/data/user/Relabeling/dinov2_data/CyclistDetectorTrainingDatav3coco/train/cropped_images/bicyclist/facebook_dinov2-giant_bicyclist.pt'],
+#     "motorcyclist": ['/net/acadia14a/data/user/Relabeling/dinov2_data/CyclistDetectorTrainingDatav3coco/train/cropped_images/motorcyclist/facebook_dinov2-giant_motorcyclist.pt']
 # }
 
 class_features = {}
@@ -145,11 +145,11 @@ def return_label(pil_image, class_features, top_two=False):
 def main():
     correct_vlm1=0
     total=0
-    files = glob('/net/acadia10a/data/sparsh/mapillary/mapillary-2.0/validation/v2.0/polygons/*.json')
+    files = glob('/net/acadia10a/data/user/mapillary/mapillary-2.0/validation/v2.0/polygons/*.json')
     for poly_file in files:
         all_polygon_points = read_polygon(poly_file)
         filename = os.path.basename(poly_file).replace('json', 'jpg')
-        image_path = '/net/acadia10a/data/sparsh/mapillary/mapillary-2.0/validation/images/%s'%filename
+        image_path = '/net/acadia10a/data/user/mapillary/mapillary-2.0/validation/images/%s'%filename
         image = cv2.imread(image_path)
         for key, polygon_points in all_polygon_points.items():
             for poly in polygon_points:

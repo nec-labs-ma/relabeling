@@ -24,7 +24,7 @@ models=(
 
 
 # Validation Folder
-OUTPUT_DIR="/net/acadia14a/data/sparsh/Relabeling/tests"
+OUTPUT_DIR="/net/acadia14a/data/user/Relabeling/tests"
 mkdir -p $OUTPUT_DIR
 
 

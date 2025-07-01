@@ -60,13 +60,13 @@ def main():
     correct_vlm2=0
     total=0
 
-    cats = json.load(open('/net/acadia7a/data/samuel/bdd100k/det_val.json', 'r'))
+    cats = json.load(open('/net/acadia7a/data/user/bdd100k/det_val.json', 'r'))
 
 
     valid_cats = ['car', 'motorcycle', 'bus', 'truck', 'bicycle']
     for i in cats:
         cat_image = i['labels']
-        image_path = '/net/acadia7a/data/samuel/bdd100k/images/100k/val/%s'%i['name']
+        image_path = '/net/acadia7a/data/user/bdd100k/images/100k/val/%s'%i['name']
         image = cv2.imread(image_path)
         for j in cat_image:
             if j['category'] in valid_cats:

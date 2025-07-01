@@ -69,11 +69,11 @@ def read_polygon(polygon_path):
 def main():
     correct_vlm1=0
     total=0
-    files = glob('/net/acadia10a/data/sparsh/mapillary/mapillary-2.0/validation/v2.0/polygons/*.json')
+    files = glob('/net/acadia10a/data/user/mapillary/mapillary-2.0/validation/v2.0/polygons/*.json')
     for poly_file in files:
         all_polygon_points = read_polygon(poly_file)
         filename = os.path.basename(poly_file).replace('json', 'jpg')
-        image_path = '/net/acadia10a/data/sparsh/mapillary/mapillary-2.0/validation/images/%s'%filename
+        image_path = '/net/acadia10a/data/user/mapillary/mapillary-2.0/validation/images/%s'%filename
         image = cv2.imread(image_path)
         for key, polygon_points in all_polygon_points.items():
             for poly in polygon_points:

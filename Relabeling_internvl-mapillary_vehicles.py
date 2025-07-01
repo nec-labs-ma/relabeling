@@ -15,7 +15,7 @@ import os
 from glob import glob
 import sys
 import re
-cats = json.load(open('/net/acadia10a/data/sparsh/mapillary/mapillary-2.0/config_v2.0.json', 'r'))
+cats = json.load(open('/net/acadia10a/data/user/mapillary/mapillary-2.0/config_v2.0.json', 'r'))
 cats = {i['readable']: i['color'] for i in cats['labels']}
 
 
@@ -266,11 +266,11 @@ def main():
     total=0
     results = {}
 
-    files = glob('/net/acadia10a/data/sparsh/mapillary/mapillary-2.0/validation/v2.0/polygons/*.json')
+    files = glob('/net/acadia10a/data/user/mapillary/mapillary-2.0/validation/v2.0/polygons/*.json')
     for poly_file in files:
         all_polygon_points = read_polygon(poly_file, 'vehicle')
         filename = os.path.basename(poly_file).replace('json', 'jpg')
-        image_path = '/net/acadia10a/data/sparsh/mapillary/mapillary-2.0/validation/images/%s'%filename
+        image_path = '/net/acadia10a/data/user/mapillary/mapillary-2.0/validation/images/%s'%filename
         for key, polygon_points in all_polygon_points.items():
             for poly in polygon_points:
                 poly = np.array(poly).astype(np.int32)

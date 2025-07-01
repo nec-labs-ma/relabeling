@@ -17,7 +17,7 @@ from accelerate import infer_auto_device_map
 import math
 import sys
 
-cats = json.load(open('/net/acadia10a/data/sparsh/mapillary/mapillary-2.0/config_v2.0.json', 'r'))
+cats = json.load(open('/net/acadia10a/data/user/mapillary/mapillary-2.0/config_v2.0.json', 'r'))
 cats = {i['readable']: i['color'] for i in cats['labels']}
 
 
@@ -264,7 +264,7 @@ def main():
         ground_shape = data['categories'][poly_file['category_id']-1]['name']
         if ground_truth=='Others' and ground_shape == 'Sign':
             continue
-        image_path = '/net/acadia10a/data/sparsh/mapillary/mapillary-2.0/validation/images/%s'%filename
+        image_path = '/net/acadia10a/data/user/mapillary/mapillary-2.0/validation/images/%s'%filename
         print(ground_truth, ground_shape)
         image = cv2.imread(image_path)
         #cv2.polylines(image, [poly], isClosed=True, color=(0, 255, 0), thickness=5)

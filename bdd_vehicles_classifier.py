@@ -22,13 +22,13 @@ class_to_idx_path = "bdd_vehicles_class_to_idx.pkl"
 # Define class_files manually or load from config
 class_files = {
     # -- class 1
-    "car": ["/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/car/facebook_dinov2-giant_car.pt"],
-    "bus": ["/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/bus/facebook_dinov2-giant_bus.pt"],
-    'truck': ['/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/truck/facebook_dinov2-giant_truck.pt'],
-    "motorcycle":['/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/motorcycle/facebook_dinov2-giant_motorcycle.pt'],
-    'bicycle': ['/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/bicycle/facebook_dinov2-giant_bicycle.pt'],
-    "van":["/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/van/facebook_dinov2-giant_van.pt"],
-    "suv":["/net/acadia14a/data/sparsh/Relabeling/dinov2_data/new_vehicles/suv/facebook_dinov2-giant_suv.pt"],
+    "car": ["/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/car/facebook_dinov2-giant_car.pt"],
+    "bus": ["/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/bus/facebook_dinov2-giant_bus.pt"],
+    'truck': ['/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/truck/facebook_dinov2-giant_truck.pt'],
+    "motorcycle":['/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/motorcycle/facebook_dinov2-giant_motorcycle.pt'],
+    'bicycle': ['/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/bicycle/facebook_dinov2-giant_bicycle.pt'],
+    "van":["/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/van/facebook_dinov2-giant_van.pt"],
+    "suv":["/net/acadia14a/data/user/Relabeling/dinov2_data/new_vehicles/suv/facebook_dinov2-giant_suv.pt"],
 }
 
 # Transform
