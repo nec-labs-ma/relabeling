@@ -93,5 +93,5 @@ def analyze_type_of_signs(json_path, output_dir="type_sign_analysis"):
 
 
 # Example usage:
-analyze_type_of_signs("/net/acadia14a/data/sparsh/Relabeling/instances_default.json")
+analyze_type_of_signs("/net/acadia14a/data/user/Relabeling/instances_default.json")
 
