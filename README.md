@@ -53,8 +53,8 @@ While Mapillary provides a large and diverse dataset, the traffic sign annotatio
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-org/mapillary-relabel-vlm.git
-cd mapillary-relabel-vlm
+git clone [https://github.com/your-org/mapillary-relabel-vlm.git](https://anonymous.4open.science/r/relabeling-E88E/README.md)
+cd relabeling
 ```
 
 ### 2. Install requirements
