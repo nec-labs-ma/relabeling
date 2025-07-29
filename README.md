@@ -4,7 +4,7 @@ Welcome to the official repository for our relabeled **Mapillary validation data
 
 ---
 
-## 📌 Project Overview
+## 📌 Project Overview (Published in ICCV Workshop)
 
 This project aims to **standardize and improve** traffic sign annotations by relabeling existing Mapillary data using **modern Visual-Language Models (VLMs)** like:
 
