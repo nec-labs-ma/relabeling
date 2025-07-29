@@ -53,7 +53,7 @@ While Mapillary provides a large and diverse dataset, the traffic sign annotatio
 ### 1. Clone the repository
 
 ```bash
-git clone (https://github.com/nec-labs-ma/relabeling.git)](https://github.com/nec-labs-ma/relabeling.git)
+git clone https://github.com/nec-labs-ma/relabeling.git
 cd relabeling
 ```
 
