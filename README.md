@@ -286,3 +286,12 @@ This dataset is released for **research and academic use only**. Please check `L
 - Gemma by Google DeepMind
 
 ---
+
+## 📬 Contact
+
+If you have any questions, suggestions, or collaboration ideas, feel free to reach out:
+
+- 📧 **Email:** [sparsh@nec-labs.com](mailto:sparsh@nec-labs.com)  
+- 💼 **LinkedIn:** [linkedin.com/in/garg-sparsh](https://www.linkedin.com/in/garg-sparsh/)  
+---
+
