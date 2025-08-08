@@ -66,7 +66,7 @@ pip install awscli==1.25.0
 
 ### 3. Download the dataset
 - Download images here: `https://mapillary-signs.s3.us-west-2.amazonaws.com/images.zip` or `aws s3 cp s3://mapillary-signs/images.zip .`
-- Download annotations for signs: `https://mapillary-signs.s3.us-west-2.amazonaws.com/instances_default.json` or `aws s3 cp s3://mapillary-signs/instances_default.json .` or from huggingface `sparshgarg57/mapillary_traffic_signs`
+- Download annotations for signs: `https://mapillary-signs.s3.us-west-2.amazonaws.com/instances_default.json` or `aws s3 cp s3://mapillary-signs/instances_default.json .` or `https://huggingface.co/datasets/sparshgarg57/mapillary_traffic_signs`
 
 ---
 
