@@ -216,9 +216,7 @@ Each inference script generates updated labels or predictions for the task-speci
 
 This repository also supports using external datasets (e.g., **Roboflow** and **Object365**) to enhance performance through DINOv2-based feature extraction.
 
-## Architecture
 
-![alt text](dinov2_architecture.drawio "Architecture")
 
 
 ## 📦 External Data Sources
@@ -253,6 +251,8 @@ All cropped object images will be saved in task-specific directories.
 ---
 
 ## 📌 DINOv2 Feature Extraction
+
+![DINOv2 Architecture](dinov2_architecture.drawio.png)
 
 1. Use `extract_features.py` to compute DINOv2 features for cropped objects (e.g., speed signs, yield signs).
 2. Features will be saved as:
