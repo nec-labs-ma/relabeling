@@ -216,6 +216,11 @@ Each inference script generates updated labels or predictions for the task-speci
 
 This repository also supports using external datasets (e.g., **Roboflow** and **Object365**) to enhance performance through DINOv2-based feature extraction.
 
+## Architecture
+
+![alt text](dinov2_architecture.drawio "Architecture")
+
+
 ## 📦 External Data Sources
 
 ### 🧰 Roboflow
